@@ -20,12 +20,17 @@ body {
 .container {
     background-color: hsl(217, 19%, 24%);
     max-width: 540px;
-    min-height: 240px;
+    height: auto;
     flex-direction: column;
     text-align: center;
     padding: 48px;
     border-radius: 14px;
     position: relative;
+}
+
+#loading-indicator {
+    font-size: 14px;
+    color: red;
 }
 
 .advice_id {
