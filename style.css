@@ -11,10 +11,42 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    max-width: 540px;
+    min-height: 240px;
+    flex-direction: column;
+    text-align: center;
+    padding: 48px;
+    border-radius: 14px;
+}
+
+.advice_id {
+    color: #52ffa8;
+    display: block;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.advice {
+    color: #cee3e9;
+    margin-bottom: 30px;
+    font-size: 27.2px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0.05px;
 }
 
 footer {
     color: #fff;
+    position: absolute;
+    bottom: 10px;
     font-size: 12px;
     text-align: center;
     font-weight: 100;
