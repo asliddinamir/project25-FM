@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function getRandomQuote() {
         loadingIndicator.style.display = 'block';
 
+
         fetch(api_url)
             .then(res => res.json())
             .then(data => {
